@@ -164,13 +164,26 @@ static const char Hawaii50[] PROGMEM = "Hawaii50:d=8,o=6,b=180:g5,g5,a#5,4d,2c,1
 static const char STComm1[] PROGMEM = "StarTrek:d=32,o=7,b=180:d#,e,g,d#,g,d#,f#,e,f,2p,d#,e,g,d#,g,d#,f#,e,f,2p,d#,e,g,d#,g,d#,f#,e,f";
 static const char STComm2[] PROGMEM = "StarTrek:d=32,o=6,b=225:16c#,d,d#,4e.,d#,d,8c#";
 static const char Mermaid[] PROGMEM = "TheLittl:d=4,o=5,b=200:8d,8f,8a#,d6,d6,8a#,c6,d#6,d6,a#,8a#4,8d,8f,a#,a#,8c,a,c6,a#,p,8d,8f,8a#,d6,d6,8a#,c6,d#6,d6,a#,8a#4,8d,8f,a#,a#,8c,a,c6,16a#,16d,16a#,16d,16a#,16d,16a#tarTrek:d=32,o=6,b=225:16c#,d,d#,4e.,d#,d,8c#";
-
+static const char Ipanema[] PROGMEM ="GirlFromIpane:d=4,o=5,b=160:g.,8e,8e,d,g.,8e,e,8e,8d,g.,e,e,8d,g,8g,8e,e,8e,8d,f,d,d,8d,8c,e,c,c,8c,a#4,2c";
+static const char Popeye [] PROGMEM ="Popeye:d=4,o=5,b=140:16g.,16f.,16g.,16p,32p,16c.,16p,32p,16c.,16p,32p,16e.,16d.,16c.,16d.,16e.,16f.,g,8p,16a,16f,16a,16c6,16b,16a,16g,16a,16g,8e,16g,16g,16g,16g,8a,16b,32c6,32b,32c6,32b,32c6,32b,8c6";
+static const char Banjo[] PROGMEM ="dualingbanjos:d=4,o=5,b=200:8c#,8d,e,c#,d,b4,c#,d#4,b4,p,16c#6,16p,16d6,16p,8e6,8p,8c#6,8p,8d6,8p,8b,8p,8c#6,8p,8a,8p,b,p,a4,a4,b4,c#,d#4,c#,b4,p,8a,8p,8a,8p,8b,8p,8c#6,8p,8a,8p,8c#6,8p,8b";
+static const char Macarena[] PROGMEM ="Macarena:d=4,o=5,b=180:f,8f,8f,f,8f,8f,8f,8f,8f,8f,8f,8a,8c,8c,f,8f,8f,f,8f,8f,8f,8f,8f,8f,8d,8c,p,f,8f,8f,f,8f,8f,8f,8f,8f,8f,8f,8a,p,2c.6,a,8c6,8a,8f,p,2p";
+static const char Munsters[] PROGMEM ="munsters:d=4,o=5,b=160:d,8f,8d,8g#,8a,d6,8a#,8a,2g,8f,8g,a,8a4,8d#4,8a4,8b4,c#,8d,p,c,c6,c6,2c6,8a#,8a,8a#,8g,8a,f,p,g,g,2g,8f,8e,8f,8d,8e,2c#,p,d,8f,8d,8g#,8a,d6,8a#,8a,2g,8f,8g,a,8d#4,8a4,8d#4,8b4,c#,2d";
+static const char Light[] PROGMEM ="LightMyFire:d=4,o=5,b=140:8b,16g,16a,8b,8d6,8c6,8b,8a,8g,8a,16f,16a,8c6,8f6,16d6,16c6,16a#,16g,8g#,8g,8g#,16g,16a,8b,8c#6,16b,16a,16g,16f,8e,8f,1a,a";
+static const char Peanuts[] PROGMEM ="peanuts:d=4,o=5,b=160:f,8g,a,8a,8g,f,2g,f,p,f,8g,a,1a,2p,f,8g,a,8a,8g,f,2g,2f,2f,8g,1g";
+static const char Superman[] PROGMEM ="SuperMan:d=4,o=5,b=180:8g,8g,8g,c6,8c6,2g6,8p,8g6,8a.6,16g6,8f6,1g6,8p,8g,8g,8g,c6,8c6,2g6,8p,8g6,8a.6,16g6,8f6,8a6,2g.6,p,8c6,8c6,8c6,2b.6,g.6,8c6,8c6,8c6,2b.6,g.6,8c6,8c6,8c6,8b6,8a6,8b6,2c7,8c6,8c6,8c6,8c6,8c6,2c.6";
+static const char PeterGunn[] PROGMEM ="PeterGunn:d=4,o=5,b=112:8e,8e,8f#,8e,8g,8e,8a,8g,8e,8e,8f#,8e,8g,8e,8a,8g,1e,c#,2p,p,1e,8c#6,8g,2p";
+static const char Sponge[] PROGMEM ="Spongebob:d=4,o=6,b=112:c,a5,g5,e5,c,a5,g5,e5,c,a5,g5,e5,8g.5,16g5,2a5,b5,2c,2p,c,a5,g5,e5,c,a5,g5,e5,c,a5,g5,e5,8g.5,16g5,2a5,b5,2c,2p,c,a5,g5,e5,c,a5,g5,e5,c,a5,g5,e5,8g.5,16g5,2a5,b5,2c,2p,c,a5,g5,e5,c,a5,g5,e5,c,a5,g5,e5,8g.5,16g5,2a5,b5,2c";
+static const char Grease[] PROGMEM ="GreaseJo:d=4,o=6,b=160:8g5,8g5,8c5,8c5,8e5,8e5,8g5,8g5,8a5,8a5,8c,8c,8a5,8a5,g5,8e5,1c5,1p,8f5,8f5,8f5,8a5,8a5,8c,8c,8d,8d,8d_,8d_,8d,8d,c,8a5,1g5,1p,8g5,8d,8d,8d,8d,d,8g5,8g5,8c,8c,8c,8c,c,8g5,8g5,8d,8d,8d,8d,d,8g5,8g5,8d_,8d_,8d,8d,c,8g5,8g5,c,2c.";
+static const char AxelF[] PROGMEM ="axelfoley:d=4,o=6,b=112:8f5,8p,8g_.5,16f5,16p,16f5,8a_5,8f5,8d_5,8f5,8p,8c.,16f5,16p,16f5,8c_,8c5,8g_5,8f5,8c,8f5,16f5,16d_5,16p,16d_5,8c5,8g5,f.5,2p.,8f5,8p,8g_.5,16f5,16p,16f5,8a_5,8f5,8d_5,8f5,8p,8c.,16f5,16p,16f5,8c_,8c5,8g_5,8f5,8c,8f5";
 /*
  * Array of songs. Useful for random melody
  */
 #pragma GCC diagnostic ignored "-Wunused-variable"
-static const char * const RTTTLMelodies[] PROGMEM = { StarWars, MahnaMahna, MissionImp, Flinstones, YMCA, Simpsons, Indiana, Entertainer, Muppets, Looney, Bond, StarWars, GoodBad, PinkPanther, A_Team, Jeopardy, Gadget, Smurfs, Toccata,
-	Scooby, Scooby2, Monty, DrWho, Aadams, Cantina, Trek, ImpMarch, Arabian, Mario, Future, Potter, Hawaii50, STComm1, STComm2, Mermaid };
+static const char * const RTTTLMelodies[] PROGMEM = { StarWars, MahnaMahna, MissionImp, Flinstones, YMCA, Simpsons, Indiana, Entertainer, 
+	Muppets, Looney, Bond, StarWars, GoodBad, PinkPanther, A_Team, Jeopardy, Gadget, Smurfs, Toccata, Scooby, Scooby2, Monty, DrWho,
+	Aadams, Cantina, Trek, ImpMarch, Arabian, Mario, Future, Potter, Hawaii50, STComm1, STComm2, Mermaid, Ipanema, Popeye, Banjo
+	Macarena, Munsters, Light, Peanuts, Superman, PeterGunn,Sponge, Grease, AlexF };
 #define ARRAY_SIZE_MELODIES (sizeof(RTTTLMelodies)/sizeof(const char *))
 
 
